@@ -2515,7 +2515,7 @@ GameObject:
   - component: {fileID: 1547101702}
   - component: {fileID: 1547101703}
   m_Layer: 0
-  m_Name: SpoutReveiver
+  m_Name: SpoutReceiver
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
