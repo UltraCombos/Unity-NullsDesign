@@ -21,7 +21,7 @@ namespace UltraCombos
 		Vector3 pd => m.MultiplyPoint( Vector3.Scale( frame.size, new Vector3( +0.5f, +0.5f, 0 ) ) );
 		Vector3 pe => target.transform.position;
 
-		Vector3[] corners => new Vector3[4] { pa, pb, pd, pc };
+		public Vector3[] corners => new Vector3[4] { pa, pb, pd, pc };
 
 		private void LateUpdate()
 		{
