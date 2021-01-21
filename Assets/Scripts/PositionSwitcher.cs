@@ -42,11 +42,13 @@ namespace UltraCombos
 
 		private void Update()
 		{
+			/*
 			frustumLeft.target.transform.position = Vector3.Lerp( viewSideLeft.position, viewCenter.position, positioning );
 			frustumRight.target.transform.position = Vector3.Lerp( viewSideRight.position, viewCenter.position, positioning );
 
 			UpdateRenderer( frustumLeft, frustumCenter.target, new Vector2( 0.5f, 1.0f ), new Vector2( 0.0f, 0.0f ), rendererLeft );
 			UpdateRenderer( frustumRight, frustumCenter.target, new Vector2( 0.5f, 1.0f ), new Vector2( 0.5f, 0.0f ), rendererRight );
+			*/
 		}
 
 		private void UpdateRenderer(FrustumFitter frustum, Camera cam, Vector2 tiling, Vector2 offset, Renderer rdr)
